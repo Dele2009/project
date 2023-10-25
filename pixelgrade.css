@@ -162,27 +162,7 @@ nav ul li{
 
 
 /* mado nav */
-#mado{
-    background: purple;
-    width: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 70px;
-    position: fixed;
-    margin-top: 30px;
-    left: 30px;
-    padding: 10px;
-    border-radius: 10px;
-    z-index: 9;
-}
-#jl{
-    margin-right: 10px;
-    text-decoration: none;
-    color: rgba(204, 180, 212, 255);
-    font-size: 20px;
-    text-transform: capitalize;
-}
+
 #pix{
     background-image: url(pixel.jfif);
     width: 100%;
