@@ -134,7 +134,7 @@ nav ul li{
 #max{
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
     text-transform: uppercase;
 }
 #max:hover{
@@ -167,4 +167,6 @@ nav ul li{
     background-image: url(pixel.jfif);
     width: 100%;
     height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

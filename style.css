@@ -1,0 +1,339 @@
+body {
+    padding: 115px 0px 0px 0px;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.max {
+    background: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav {
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed;
+    top: 80px;
+    left: 0; */
+
+
+    width: 100%;
+
+}
+
+.imgdiv {
+    margin: 0px 0px 0px 93px;
+    width: 80px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.FCLogo {
+    width: 100%;
+}
+
+.lidiv {
+    padding: 0px;
+    margin: 0px auto;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.li-s {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+    color: purple;
+    text-transform: uppercase;
+
+}
+.link:hover{
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    background: purple;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(80, 2, 80);
+}
+.body {
+
+    background: rgb(115, 4, 115);
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+
+
+}
+
+.in {
+    display: flex;
+    align-items: center;
+    background: orange;
+    width: fit-content;
+    margin: 0px 0px 0px 93px;
+    padding: 0px 90px 0px 15px;
+}
+
+.fa-solid {
+    height: fit-content;
+    width: fit-content;
+    padding: 6px;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background: white;
+
+
+}
+
+.mk {
+    display: flex;
+}
+
+.ol {
+    border-left: 5px solid orange;
+    width: fit-content;
+    padding: 0px 0px 0px 10px;
+    margin-left: 90px;
+
+}
+
+.ol>.wt {
+    font-weight: 900;
+}
+
+.main {
+    height: 300px;
+    width: 88%;
+    margin: 0px auto;
+}
+
+.boxs {
+    display: flex;
+}
+
+.form {
+    background: rgb(162, 4, 109);
+    width: fit-content;
+    height: 356px;
+    padding: 5px 5px 0px 5px;
+}
+
+table {
+    width: 410px;
+    background: white;
+    padding: 10px;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid;
+
+}
+
+.bt {
+    padding: 15px 25px;
+    margin-top: 20px;
+    background: orange;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.link2 {
+    text-decoration: none;
+    color: rgb(71, 192, 233);
+}
+
+.image {
+    width: 520px;
+    height: 350px;
+}
+
+.fc-app {
+    width: 100%;
+}
+
+.wo {
+    background: pink;
+    height: 360px;
+    width: 419px;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.wo p {
+    font-size: 14px;
+}
+
+.lock {
+    display: flex;
+}
+
+.nk {
+    font-size: 20px;
+    font-weight: 1500;
+}
+
+.fa-lock {
+    font-size: 35px;
+    margin: 0px 0px 0px 40px;
+}
+
+.bu {
+    margin: 0px 0px 0px 230px;
+    background: orange;
+    padding: 3px 10px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.form,
+.image {
+    margin: 0px 20px 0px 0px;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mae {
+    display: flex;
+
+    width: 57%;
+
+
+    margin: 20px 89px 0px 0px;
+    border: 1px solid;
+
+}
+
+.map {
+    background: none;
+    color: rgb(170, 146, 8);
+    width: fit-content;
+    text-align: center;
+    /* margin: 0px 0px 0px 350px; */
+}
+
+.marko {
+    width: 120px;
+    background: orange;
+    justify-content: center;
+    padding: 42px 20px 20px 20px;
+
+
+}
+
+.p9 {
+    text-align: left;
+    width: fit-content;
+}
+
+.mut {
+    width: 40px;
+    margin: 0px 0px 0px 25px;
+}
+
+.rat {
+    width: 60px;
+}
+
+.rot {
+    width: 50px;
+}
+
+.kat {
+    width: 100%;
+    background: none;
+}
+
+.mark {
+    width: 25%;
+}
+
+.mark,
+.mar,
+.ma {
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.bot {
+    text-decoration: none;
+    color: rgb(22, 77, 107);
+}
+
+.icon {
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+.ics {
+    display: flex;
+    align-items: center;
+    margin: 0px 100px 0px 0px;
+    width: fit-content;
+}
+
+.fa-brands {
+    font-size: 40px;
+    margin: 0px 15px 0px 0px;
+}
+
+.fa-comments {
+    color: blue;
+    margin: 0px 10px 0px 50px;
+    font-size: 35px;
+}
+
+.fa-facebook {
+    background: white;
+    color: rgb(49, 49, 175);
+}
+
+.fa-twitter {
+    color: rgb(33, 177, 200);
+}
+
+.fa-linkedin {
+    color: rgb(4, 74, 161);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-google {
+    color: blue;
+}
+
+.down {
+    background: rgb(32, 31, 31);
+    margin-top: 40px;
+
+    padding: 10px 40px 10px 40px;
+}
+
+.info {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}

@@ -1,108 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>business registration form</title>
-    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lemonada&family=Nosifer&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lemonada&family=Lobster+Two:wght@700&family=Nosifer&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            padding: 200px 0px 200px 0px;
+            margin: 0;
+            background-image: url(1327999.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Lemonada', cursive;
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
+        }
+
+        .navb {
+            /* background: rgba(12, 56, 101, 255); */
+            /* background-image: url(dt.jpg); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0px 0px 10px 0px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 100px;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 5;
+            background: rgba(56, 10, 56, 0.915);
+
+
+
+        }
+
+        .head {
+            display: flex;
+            align-items: center;
+            margin: 0px 0px 0px 20px;
+            width: fit-content;
+        }
+
+        .div {
+            width: 70px;
+            height: 50px;
+            margin: 0px 10px 13px 0px;
+
+
+        }
+
+        .max {
+            text-decoration: none;
+            color: white;
+            /* text-shadow:; */
+        }
+
+        .mew {
+
+            width: fit-content;
+            display: flex;
+            align-items: center;
+
+
+
+        }
+
+
+
+
+        .yu {
+            width: 100%;
+            margin: 0px 0px 0px 0px;
+            border-radius: 40px;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: 'Lobster Two', sans-serif;
+            text-transform: uppercase;
+            width: fit-content;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .navul {
+            padding: 0px;
+            list-style: none;
+            display: flex;
+            width: fit-content;
+
+
+
+        }
+
+        .navul .navelm {
+            margin: 0px 10px;
+
+
+            width: fit-content;
+
+        }
+
+        .navelm:hover {
+            background: rgba(31, 2, 31, 0.547);
+            border-radius: 10px;
+            padding: 5px 12px;
+            text-align: center;
+            box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.411);
+        }
+
+        .my {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            text-transform: uppercase;
+            text-align: center;
+
+        }
+
+        .div2 {
+            width: fit-content;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+
+
+
+        }
+
+        .but {
+            margin: 0;
+            padding: 15px 25px;
+            width: fit-content;
+            font-size: 20px;
+            font-weight: 200;
+            border-radius: 10px;
+            border: none;
+            /* background: rgba(72, 208, 196, 255); */
+            background-image: url(download.jfif);
+            color: white;
+            display: flex;
+        }
+
+        .pd {
+            display: flex;
+            width: 70%;
+            margin: auto;
+            position: relative;
+
+
+
+
+
+        }
+
+        .fh {
+
+            width: 60%;
+            height: 550px;
+
+
+
+        }
+
+        .im {
+            width: 100%;
+            height: 550px;
+        }
+
+        .sh {
+
+            background-color: rgba(56, 10, 56, 0.886);
+            width: 50%;
+            height: 550px;
+            display: flex;
+            align-items: center;
+
+
+
+        }
+
+        .form {
+            /* background:rgba(71, 2, 55, 0.2); */
+            width: fit-content;
+            height: 420px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 20px;
+
+
+
+        }
+
+        input[type="text"] {
+            width: 300px;
+            height: 50px;
+            margin-top: 35px;
+            padding: 0px 0px 0px 15px;
+            border-radius: 15px;
+            background: white;
+            border: none;
+            outline-color: rgb(131, 5, 131);
+
+            opacity: 0.7;
+        }
+
+        .fp {
+            text-align: right;
+            margin: 10px 0px 0px 0px;
+            text-decoration: none;
+            font-size: 12px;
+
+        }
+
+        a {
+            color: white;
+
+        }
+
+        .butto {
+
+            width: fit-content;
+            margin: 0px auto;
+
+        }
+
+        .ink {
+            margin: 40px 0px 0px 0px;
+            padding: 10px 125px;
+            font-size: 17px;
+            border-radius: 10px;
+            border: none;
+            background: rgb(184, 18, 159);
+
+
+        }
+
+        hr {
+            margin: 30px 0px 0px 0px;
+        }
+
+        .also {
+            text-align: center;
+            color: white;
+        }
+
+        .lw {
+
+            font-weight: 900;
+        }
+
+        .fa-brands {
+            margin: 0px 8px;
+            font-size: 29px;
+
+        }
+
+        /* .fa-facebook {
+            background: white;
+            width: fit-content;
+            color: blue;
+            border-radius: 50px;
+            border: none;
+        }
+
+        .fa-google {
+            color: rgb(153, 6, 6);
+        }
+
+        .fa-twitter {
+            color: rgb(59, 144, 255);
+        } */
+
+        .mv {
+            width: fit-content;
+            text-align: center;
+            position: relative;
+            margin: 0px 50px 0px 50px;
+            align-items: center;
+            list-style-type: none;
+        }
+
+        .navel {
+            background: rgb(15, 4, 15);
+            padding: 5px 15px;
+            border-radius: 50px;
+        }
+
+        .fa-arrow-down {
+            font-size: 20px;
+            font-weight: ;
+        }
+
+
+        .drop {
+            background: rgba(128, 0, 128, 0.696);
+            width: fit-content;
+            list-style: none;
+            padding: 0px;
+            display: none;
+            margin: 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .drop .li {
+
+            padding: 10px 25px;
+            width: fit-content;
+            text-align: center;
+
+        }
+
+        .drop li:hover {
+            background: rgba(128, 0, 128, 0.852);
+            width: fit-content;
+        }
+
+        .mv:hover .drop {
+            display: block;
+            position: absolute;
+            top: 35px;
+            left: -35px;
+        }
+    </style>
 </head>
-<body>
-    <div id="head">
-        <h1 id="oU"><a href="index.html" id="fl"><i class="fa-solid fa-house-chimney"></i>BIZREGHUB</a></h1>
-        <nav id="lado">
-            <ul>
-                <a href="index.html" id="sl"><li>HOME</li></a>
-                <a href="d'scodes.html" id="sl"><li>ABOUT</li></a>
-                <a href="bridge.html" id="sl"><li>CONTACT US</li></a>
-                <a href="pixelgrade.html" id="sl"><li>SERVICES</li></a>
-                <a href="Whogohost.html" id="sl"><li>FEEDBACK</li></a>
-            </ul>
-        </nav>
-       
-        
-    </div>
-            <button class="yh">
-                👆
-            </button>
-            <button class=" mn">
-                👇
-            </button>
-    <div class="fd">
-        <div class="image-overlay"><h1 id="ok">Register Your Business</h1></div>
-        
 
-    </div><br><br><br><br>
-    <div class="sd">
-        <h1 id="oo">Business Registration Form</h1>
-            <table>
-                <tr>
-                    <td><label for="">First Name*</label></td>
-                    <td><label for="">Other Name*</label></td>
-                    <td><label for="">Last Name*</label></td>
-                </tr>
-                <tr>
-                    <td><input type="name"></td>
-                    <td><input type="name"></td>
-                    <td><input type="name"></td>
-                </tr>
-                <tr>
-                    <td><label for="">Business Name*</label></td>
-                </tr>
-                <tr>
-                    <td colspan="3"><input type="text"  class="bn"></td>
-                </tr>
-                <tr>
-                    <td><label for="">Phone Number*</label></td>
-                </tr>
-                <tr>
-                    <td colspan="3"><input type="number" class="bn"></td>
-                </tr>
-                <tr>
-                    <td><label for="">Email*</label></td>
-                </tr>
-                <tr>
-                    <td colspan="3"><input type="email" class="bn"></td>
-                </tr>
-                <tr>
-                    <td><label for="">Business Address*</label></td>
-                    <td><label for="">City*</label></td>
-                    <td><label for="">State*</label></td>
-                </tr>
-                <tr>
-                    <td><textarea name="" id="" cols="20" rows="10"></textarea></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td><label for="">Business Description*</label></td>
-                </tr>
-                <tr>
-                    <td colspan="3"><textarea name="" id="" cols="67.5" rows="9"></textarea></td>
-                </tr>
-                <tr>
-                    <td>Business Structure*</td>
-                </tr>
-                <tr>
-                    <td colspan="3"><input type="text" class="bn"></td>
-                </tr>
-                <tr>
-                    <td>Input Documents*</td>
-                </tr>
-                <tr>
-                    <td><input type="file"></td>
-                </tr>
-            </table>
-            <div id="cap"><input type="checkbox">
-                <label for="">i'm not a robot &nbsp;&nbsp;&nbsp;<img src="capt.jfif" alt="" id="nora"></label>
+<body>
+    <nav class="navb">
+        <div class="head">
+            <div class="div">
+                <img src="logo.jpg" alt="" class="yu">
             </div>
-            <input type="submit">
+            <a href="" class="max">
+                <h1>sci-art</h1>
+            </a>
+        </div>
+        <div class="mew">
+            <ul class="navul">
+                <li class="navelm"><a href="index.html" class="my">home</a></li>
+                <li class="navelm"><a href="bizg.html" class="my">about</a></li>
+                <li class="navelm"><a href="fcmb.html" class="my">services</a></li>
+                <li class="navelm"><a href="d'scodes.html" class="my">contact us</a></li>
+                <li class="navelm"><a href="bridge.html" class="my">products</a></li>
+                <li class="navelm"><a href="pixelgrade.html" class="my">our mission</a></li>
+                <li class="navelm"><a href="Whogohost.html" class="my">feedback</a></li>
+            </ul>
+            <div class="div2">
+                <button class="but">
+                    SIGN UP
+                </button>
+                <div class="mv">
+                    <li class="navel"><a href="index.html" class="my"> <i class="fa-solid fa-arrow-down"></i></a></li>
+                    <ul class="drop">
+
+                        <li class="li bo"><a href="bizg.html" class="my"> about</a></li>
+                        <li class="li"><a href="fcmb.html" class="my">services</a></li>
+                        <li class="li"><a href="d'scodes.html" class="my">contact us</a></li>
+                        <li class="li"><a href="bridge.html" class="my">products</a></li>
+                        <li class="li"><a href="pixelgrade.html" class="my">our mission</a></li>
+                        <li class="li"><a href="Whogohost.html" class="my">feedback</a></li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="pd">
+        <div class="fh">
+            <img src="backgroung concept.jpg" alt="" class="im">
+
+        </div>
+
+        <div class="sh">
+            <div class="form">
+                <form action="">
+
+                    <input type="text" placeholder="Type your email ( johndoe@example.com )"><br>
+
+                    <input type="text" placeholder="Type your Password"><br>
+
+                    <a href="">
+                        <p class="fp">Forget your password?</p>
+                    </a>
+                    <div class="butto">
+                        <button class="ink">
+                            LOGIN
+                        </button>
+
+                    </div>
+                    <hr>
+                    <div class="also">
+                        <p class="lw">You can also logn with:</p>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-twitter"></i>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
     </div>
-   
+
+
+
+
+
+
+
 </body>
+
 </html>
